@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Rubik', sans-serif;
+    background-color: #c78b149a;
+    height: 100vh;
+    width: 100%;
+}
+.side{
+    height: 10vh;
+    background-color: #421366ea;
+}
+.menu{
+    display: flex;
+    justify-content: center;     /*---гор--*/
+    align-items: center;
+    
+}
+.left ul{
+    display: flex;
+}
+.left ul li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.left ul i{
+    font-size: 25px;
+    color: wheat;
+}
+.left ul li a{
+    text-decoration: none;
+    color: wheat;
+    padding-left: 50px 0px;
+}
+.right{
+    margin: 0 auto;
+}
+.right label input{
+    width: 200px;
+    border-radius: 7px;
+    border: 1px solid wheat;
+    height: 3vh;
+}
+.right a i{
+    color: wheat;
+}
+.right a{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.lain{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+/*-------block1-------------*/
+
+.main{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+   
+}
+.banner{    
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-around;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border:1px solid wheat;   
+} 
+.banner2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.box h5{
+    margin-top: 50px;
+}
+.box a{ 
+    color: rebeccapurple;
+   text-decoration: none;
+}
+/*========block2========*/
+.nav{
+    width: 100%;
+    
+}
+.card{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 10px;
+    justify-content: center;    
+    align-items: center;
+    display: flex;
+}
+.box1 a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+.box1 p{
+    color: red;
+}
+/*=======block3================*/
+.src video{
+    width: 550px;
+    margin-left: 30px;
+    
+}
+.video{
+    background: url(/./img/3.jpg) center / cover no-repeat fixed;
+    width: 99%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    border: 1px solid;
+    margin-left: 5px;
+   
+}
+/*============footer==================*/
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #421366ea;
+    border-radius: 20px;
+}
+.part li{
+    display: inline-flex;
+    padding: 10px;
+}
+.part ol li a{
+    font-size: 25px;
+    list-style-type: none;
+    color: wheat;
+    text-decoration: none;
+}
+.part ol li a:hover{
+   
+    color: green;
+    transition: 0.3s;
+}
+.cot_ceti a i{
+    font-size: 25px;
+    padding: 10px;
+}
+.footer p{
+    color: wheat;
+    font-size: 15px;
+}
+
+
+@media (max-width: 600px){
+    .side{
+        height: 10vh;
+        background-color: #421366ea;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;     /*---гор--*/
+        align-items: center;
+        
+    }
+    .left ul{
+        display: flex;
+        
+        
+    }
+    .left ul li{
+       
+        list-style: none;
+        padding-left: 30px;
+        font-size: 10px;
+        
+    }
+    .left ul i{
+        font-size: 25px;
+        color: wheat;
+    }
+    .left ul li a{
+        display: flex;
+        text-decoration: none;
+        color: wheat;
+        padding-left: 50px 0px;
+    }
+    .right{
+        margin: 0 auto;
+    }
+    .right label input{
+        width: 200px;
+        border-radius: 7px;
+        border: 1px solid wheat;
+        height: 3vh;
+    }
+    .right a i{
+        color: wheat;
+    }
+    .right a{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .lain{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+    }
+    .src video{
+        width: 500px;
+        margin-left: 30px;
+        
+    }
+}
